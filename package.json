@@ -1,0 +1,26 @@
+{
+  "name": "elm-app",
+  "version": "1.0.0",
+  "description": "first elm app",
+  "main": "index.js",
+  "scripts": {
+    "dev": "elm-live src/Main.elm --output=elm.js --pushstate --debug",
+    "build": "elm make src/Main.elm --output=elm.js --optimize",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnykifle/elm-app.git"
+  },
+  "author": "Yohannes Russom",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnykifle/elm-app/issues"
+  },
+  "devDependencies": {
+    "elm": "^0.19.0-bugfix2",
+    "elm-format": "^0.8.0",
+    "elm-live": "^3.0.0"
+  },
+  "homepage": "https://github.com/johnykifle/elm-app#readme"
+}
