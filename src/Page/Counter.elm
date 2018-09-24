@@ -19,9 +19,9 @@ init start =
 
 view : Model -> {title: String, content: List (Html msg)}
 view model =
-    { title = "Lol"
+    { title = "Elm"
     , content =
-        [ div [] [p [] [text "lolorama"]]]
+        [ div [] [p [] [text "Counter"]]]
     }
 
 update : Msg -> Model -> (Model, Cmd Msg)
